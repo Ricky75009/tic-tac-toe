@@ -1,0 +1,16 @@
+h1 {
+font-family: arial;
+font-weight: bold;
+font-style: italic;
+font-size: 6vw;
+margin-left: 10vw;
+margin-right: 10vw;
+color: #121324;
+text-align: center;
+
+
+}
+
+body {
+background-color: antiquewhite;
+}

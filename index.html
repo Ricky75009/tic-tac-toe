@@ -5,12 +5,66 @@
   <meta charset="UTF-8">
   <title>Flash Game TIc-Tac-Toe</title>
 <!-- IMPORTING CSS FILE-->
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./style.css">
 <!-- IMPORTING JS FILE-->
-  <script src="/script.js" defer></script>
+  <script src="./script.js" defer></script>
+
+  
 
 </head>
+<style>
+   #verticalLine1{
+	position:absolute;
+	top:100px;
+	left:33%;
+	width:10px;
+	height:300px;
+	background-color:#121324;
+	
+}
+ #verticalLine2{
+	position:absolute;
+	top:100px;
+	left:63%;
+	width:10px;
+	height:300px;
+	background-color:#121324;
+	
+}
+#horizontalLine1{
+	position:absolute;
+	top:300px;
+	left:5%;
+	width:300px;
+	height:10px;
+	background-color:#121324;
+	
+}
+ #horizontalLine2{
+	position:absolute;
+	top:200px;
+	left:5%;
+	width:300px;
+	height:10px;
+	background-color:#121324;
+	
+}
+
+</style>
   <body>
-    <h1>Hi, there!</h1>
+    <h1>What a good game!</h1>
+    <div id="verticalLine1"></div>
+    <div id="verticalLine2"></div>
+    <div id="horizontalLine1"></div>
+    <div id="horizontalLine2"></div>
+    <!-- <div>
+        <svg height="300" width="300">
+            <line x1="100" y1="0" x2="100" y2="300" style="stroke:black;stroke-width:2" />
+          </svg>
+          <svg height="300" width="300" ;>
+            <line x1="200" y1="0" x2="200" y2="300" style="stroke:black;stroke-width:2" />
+          </svg>
+          
+    </div> -->
   </body>
 </html>
